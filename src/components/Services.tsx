@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, Shield, Cpu, Lightbulb, Monitor } from "lucide-react";
+import { ArrowRight, Shield, Cpu, Lightbulb, Monitor, Server, Network, Briefcase, Code } from "lucide-react";
 
 export default function Services() {
   const services = [
@@ -22,6 +22,26 @@ export default function Services() {
       title: "Web Development",
       icon: <Monitor className="w-6 h-6 text-white" />,
       image: "/images/web.jpg",
+    },
+    {
+      title: "IT Infrastructure",
+      icon: <Server className="w-6 h-6 text-white" />,
+      image: "/images/cloud.jpg",
+    },
+    {
+      title: "Networking",
+      icon: <Network className="w-6 h-6 text-white" />,
+      image: "/images/network.jpg",
+    },
+    {
+      title: "IT Consulting & DevOps",
+      icon: <Briefcase className="w-6 h-6 text-white" />,
+      image: "/images/professional.jpg",
+    },
+    {
+      title: "Software Development",
+      icon: <Code className="w-6 h-6 text-white" />,
+      image: "/images/software.jpg",
     }
   ];
 

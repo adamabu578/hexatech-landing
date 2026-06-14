@@ -56,10 +56,10 @@ export default function Team() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {teamMembers.map((member, index) => (
             <div key={index} className="group relative overflow-hidden rounded-2xl bg-white shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="aspect-[4/5] overflow-hidden">
+              <div className="aspect-square overflow-hidden">
                 <img
                   src={member.image}
                   alt={member.name}
