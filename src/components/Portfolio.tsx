@@ -43,7 +43,7 @@ export default function Portfolio() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <a href={project.url} target="_blank" rel="noopener noreferrer" key={index} className="block group relative rounded-xl overflow-hidden shadow-sm bg-white cursor-pointer h-[350px]">
+            <a href={project.url} target="_blank" rel="noopener noreferrer" key={index} className="block group relative rounded-xl overflow-hidden shadow-sm border-2 border-blue-500 bg-white cursor-pointer h-[350px]">
               <div className="absolute inset-0">
                 <img
                   src={project.image}
